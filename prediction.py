@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from PIL import Image
+#from PIL import Image
 import warnings
 
 warnings.filterwarnings('ignore')
@@ -39,11 +39,15 @@ def predict_tumor(features):
 st.title("Breast Cancer Prediction App")
 st.write("Predicting if the tumor is benign or malignant.")
 
-# Resizing image
-image = Image.open("img.png")
-resized_image = image.resize((440, 390))
+image = cv2.imread('img.png')
 
-st.image(resized_image, caption="Breast Cancer Awareness")
+height = 420
+aspect_ratio = image.shape[1] / image.shape[0]
+width = int(height * aspect_ratio)
+resized_image = cv2.resize(image, (width, height))
+resized_image_rgb = cv2.cvtColor(resized_image, cv2.COLOR_BGR2RGB)
+
+st.image(resized_image_rgb, caption="Breast Cancer Awareness")
 
 
 #st.image("img.png", use_column_width=True, caption="Breast Cancer Awareness", width=240)
