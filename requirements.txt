@@ -1,4 +1,4 @@
-scikit-learn
+sklearn
 PIL -> 24.3.1
 warnings
 pandas
