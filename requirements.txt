@@ -2,4 +2,5 @@ sklearn
 PIL -> 24.3.1
 warnings
 pandas
-streamlit
+streamlit -> 1.40.1
+pip
