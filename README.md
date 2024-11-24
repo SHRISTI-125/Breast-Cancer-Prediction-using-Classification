@@ -13,11 +13,11 @@ Benign is Non-Cancerous, but survival rate of Malignant is 95%.<br>
   A mammogram is a low-dose X-ray of your breast tissue. Healthcare providers use mammograms, or mammography, to look for early signs of breast cancer before symptoms develop.</p>
 
 # 📑 Dataset
-The dataset used in this project is the [Breast Cancer Wisconsin (Diagnostic) dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), which includes:
-569 samples of breast cancer cases.
-30 numeric features (e.g., radius, texture, perimeter, area).
-Target Variable:
-M (Malignant) = 1
+The dataset used in this project is the [Breast Cancer Wisconsin (Diagnostic) dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), which includes:<br>
+569 samples of breast cancer cases.<br>
+30 numeric features (e.g., radius, texture, perimeter, area).<br>
+Target Variable:<br>
+M (Malignant) = 1<br>
 B (Benign) = 0
 
 # 💡 Technology Used
