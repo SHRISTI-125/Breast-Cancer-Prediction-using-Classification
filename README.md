@@ -28,6 +28,8 @@ B (Benign) = 0
   <li>Open-CV</li>
   <li>Matplotlib</li>
   <li>Seaborn</li>
+  <li>Streamlit</li>
+  <li>Jupyter Notebook</li>
 </ul>
 
 # 🖋️ Demo
