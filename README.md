@@ -4,7 +4,11 @@ Cancer often has the ability to spread throughout your body. Breast cancer is a 
 
 This project uses Logistic Regression to predict the presence of breast cancer based on a dataset of features extracted from breast cancer diagnostic tests. The goal is to classify tumors as malignant or benign.
 
+
+![Screenshot 2024-11-23 190753](https://github.com/user-attachments/assets/4ab39c39-00aa-4122-81ae-a91044bf55b3)
+
 # 📌 Overview
+
 1 in 8 women will be diagnosed with breast cancer in their lifetime. The survival rate for breast cancer depends on the stage of the cancer, and has improved significantly in recent years due to advances in treatment and early detection. 
 This project utilizes a Logistic Regression approach to classify tumors as malignant (cancerous) or benign (non-cancerous). It provides an interpretable model to understand which features are most impactful in prediction.
 Benign is Non-Cancerous, but survival rate of Malignant is 95%.<br>
